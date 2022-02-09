@@ -6,20 +6,34 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+import sys
 
-### Step 2: 
+### Step 2:
+open file using open().  
  
 ### Step 3: 
+use for loop
 
-### Step 4:  
+### Step 4: 
+use len to count number of words 
 
 ### Step 5: 
-
-### Step 6: 
-
+give print
 ## PROGRAM:
+```
+### NAME:MEIYARASI.V
+### REGISTER NUMBER:21005984
+import sys
+count(0)
+with open (sys.arv[1],'r') as f:
+    for line in f:
+    word=line.split()
+    count+=len(word)
+print('word count in file =' ,count)
+```
 
 ### OUTPUT:
+![Output](.//C1.jpg)
 
 
 
